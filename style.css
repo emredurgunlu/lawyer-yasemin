@@ -21,6 +21,7 @@ body {
   color: black;
   font-size: var(--fs-l);
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                   HEADER                                   */
 /* -------------------------------------------------------------------------- */
@@ -29,7 +30,6 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  /* align-items: stretch; */
 }
 .header-text {
   display: flex;
@@ -253,9 +253,11 @@ iframe {
     --fs-2xl: 1.4rem;
     --fs-l: 1rem;
   }
+  .header-title {
+    flex-direction: column;
+  }
   .header-icon {
     width: 18vw;
-    margin-top: 0px;
   }
   iframe {
     width: 100%;
@@ -268,7 +270,7 @@ iframe {
   .sub-container {
     height: calc(((100vw - 60px) * 2) / 3);
   }
-    h1 {
+  h1 {
     font-size: 1.3rem;
   }
 }
