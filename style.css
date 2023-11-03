@@ -255,6 +255,7 @@ iframe {
   }
   .header-title {
     flex-direction: column;
+    margin-bottom: 15px;
   }
   .header-icon {
     width: 18vw;
