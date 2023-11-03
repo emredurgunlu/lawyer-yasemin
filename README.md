@@ -1,2 +1,3 @@
 # lawyer-yasemin
-real freelance project
+https://kayseri-avukat.vercel.app/
+freelance project (all rights reserved)
