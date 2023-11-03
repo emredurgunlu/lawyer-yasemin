@@ -235,7 +235,9 @@ iframe {
     --fs-2xl: 1.8rem;
     --fs-l: 1.2rem;
   }
-
+  .header-icon {
+    width: 16vw;
+  }
   iframe {
     width: 85%;
     height: 350px;
@@ -252,6 +254,7 @@ iframe {
     --fs-l: 1rem;
   }
   .header-icon {
+    width: 18vw;
     margin-top: 0px;
   }
   iframe {
